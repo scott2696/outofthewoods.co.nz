@@ -1,0 +1,68 @@
+# robots.txt for https://outofthewoods.co.nz
+# outofthewoods.co.nz — regenerated 2026-09-21
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: SistrixBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+User-agent: ZoominfoBot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: LinkpadBot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Seekport Crawler
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+# Everything else is welcome.
+User-agent: *
+Allow: /
+Disallow: /_build/
+Disallow: /docs/
+Disallow: /*?
+
+Sitemap: https://outofthewoods.co.nz/sitemap.xml

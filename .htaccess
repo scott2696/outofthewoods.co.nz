@@ -1,0 +1,18 @@
+# outofthewoods.co.nz — 301 redirects for retired URLs
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^best-crypto-casinos/$ /crypto-casinos-nz/ [R=301,L]
+  RewriteRule ^casino-bonuses/$ /casino-bonus/ [R=301,L]
+  RewriteRule ^high-payout-casinos/$ /casino-payout-percentages/ [R=301,L]
+  RewriteRule ^how-we-review/$ /how-we-rate-casinos/ [R=301,L]
+  RewriteRule ^instant-withdrawals/$ /fast-payout-casinos/ [R=301,L]
+  RewriteRule ^live-casinos/$ /live-casino/ [R=301,L]
+  RewriteRule ^new-online-casinos/$ /new-casinos-nz/ [R=301,L]
+  RewriteRule ^no-deposit-casinos/$ /no-deposit-bonus/ [R=301,L]
+  RewriteRule ^nz-gambling-law/$ /licensed-online-casinos/ [R=301,L]
+  RewriteRule ^online-casinos/bonuses/$ /casino-bonus/ [R=301,L]
+  RewriteRule ^online-casinos/no-deposit/$ /no-deposit-bonus/ [R=301,L]
+  RewriteRule ^payment-methods/$ /casino-payment-methods/ [R=301,L]
+</IfModule>
+
+# extensionless URLs are directories with an index.html; no rewrite needed

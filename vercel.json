@@ -1,0 +1,64 @@
+{
+ "redirects": [
+  {
+   "source": "/best-crypto-casinos",
+   "destination": "/crypto-casinos-nz/",
+   "permanent": true
+  },
+  {
+   "source": "/casino-bonuses",
+   "destination": "/casino-bonus/",
+   "permanent": true
+  },
+  {
+   "source": "/high-payout-casinos",
+   "destination": "/casino-payout-percentages/",
+   "permanent": true
+  },
+  {
+   "source": "/how-we-review",
+   "destination": "/how-we-rate-casinos/",
+   "permanent": true
+  },
+  {
+   "source": "/instant-withdrawals",
+   "destination": "/fast-payout-casinos/",
+   "permanent": true
+  },
+  {
+   "source": "/live-casinos",
+   "destination": "/live-casino/",
+   "permanent": true
+  },
+  {
+   "source": "/new-online-casinos",
+   "destination": "/new-casinos-nz/",
+   "permanent": true
+  },
+  {
+   "source": "/no-deposit-casinos",
+   "destination": "/no-deposit-bonus/",
+   "permanent": true
+  },
+  {
+   "source": "/nz-gambling-law",
+   "destination": "/licensed-online-casinos/",
+   "permanent": true
+  },
+  {
+   "source": "/online-casinos/bonuses",
+   "destination": "/casino-bonus/",
+   "permanent": true
+  },
+  {
+   "source": "/online-casinos/no-deposit",
+   "destination": "/no-deposit-bonus/",
+   "permanent": true
+  },
+  {
+   "source": "/payment-methods",
+   "destination": "/casino-payment-methods/",
+   "permanent": true
+  }
+ ]
+}
