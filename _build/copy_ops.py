@@ -125,18 +125,18 @@ OPS = {
 "gunsbet": {
  "rating": 8.6, "badge": "Biggest sports welcome",
  "tagline": "The largest betting welcome in this list",
- "sub": "285% up to &euro;7,500 &mdash; roughly NZ$13,900 &mdash; plus 285 spins",
+ "sub": "285% up to NZ$14,700 &mdash; roughly NZ$14,700 &mdash; plus 285 spins",
  "best_for": "High-turnover punters chasing maximum welcome value",
  "scores": {"Payout speed": 7.8, "Bonus value": 9.5, "Game library": 8.0,
             "Banking &amp; NZD": 7.2, "Trust &amp; disclosure": 8.2},
  "pros": [
-   "The biggest welcome package of any sportsbook here by a wide margin &mdash; roughly NZ$13,900 at current rates",
+   "The biggest welcome package of any sportsbook here by a wide margin &mdash; roughly NZ$14,700 at current rates",
    "Trading on European football and tennis is deep, with market counts that beat most Cura&ccedil;ao books",
    "Nine years of operating history, which is unusual in a list where most brands launched after 2022"],
  "cons": [
    "No crypto at all, so the fastest rail available to you is an e-wallet at 12&ndash;24 hours",
    "Euro-denominated with no NZD option &mdash; every deposit and withdrawal takes a conversion hit",
-   "&euro;4,000 weekly withdrawal cap is the tightest here, and a &euro;7,500 bonus win would take two weeks to extract"],
+   "&euro;4,000 weekly withdrawal cap is the tightest here, and a NZ$14,700 bonus win would take two weeks to extract"],
  "verdict": ("Gunsbet offers the largest betting welcome we list and the slowest way to get your money back out. If you "
              "are a high-turnover punter who leaves a balance in place, the maths works. If you deposit NZ$100 and want "
              "it back on Tuesday, almost anything else on this site is a better fit."),

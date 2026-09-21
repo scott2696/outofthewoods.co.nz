@@ -25,7 +25,7 @@ NOTES = {
  "smash": "10x on deposit plus bonus &mdash; a quarter of the market-standard turnover on the largest headline package.",
  "lucky7even": "Twenty free spins before you deposit anything, on a casino with real NZD banking underneath.",
  "rivo": "1.4 seconds to an interactive lobby on throttled 4G &mdash; the best phone experience we measured.",
- "gunsbet": "The largest sports welcome in New Zealand-facing offshore betting, at roughly NZ$13,900.",
+ "gunsbet": "The largest sports welcome in New Zealand-facing offshore betting, at roughly NZ$14,700.",
  "lucky-vibe": "Weekly cashback that credits as withdrawable cash rather than another bonus with 40x attached.",
 }
 

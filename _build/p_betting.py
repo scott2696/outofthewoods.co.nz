@@ -10,7 +10,7 @@ BOOKS = ["gunsbet", "rooster-bet", "betandplay", "kingdom", "smash", "madcasino"
          "fortune-play", "lucky-vibe", "rivo", "ivibet-sportsbook", "spino", "roby-casino"]
 
 NOTES = {
- "gunsbet": "The largest welcome in NZ-facing betting at roughly NZ$13,900. Slow cashier, no crypto.",
+ "gunsbet": "The largest welcome in NZ-facing betting at roughly NZ$14,700. Slow cashier, no crypto.",
  "rooster-bet": "The best all-round book: NPC, Super Rugby, netball and NZ racing on a NZD wallet.",
  "betandplay": "Sharpest in-play engine we tested, and a 5x at 1.80+ welcome you can actually clear.",
  "kingdom": "200% up to NZ$1,900 on the sports side, attached to the fastest cashier on this site.",
@@ -92,7 +92,7 @@ SITES_FAQ = [
   "N.V. Bet&amp;Play is the pick if you bet in-play, and Gunsbet has the biggest welcome offer by a "
   "distance if you are a high-turnover punter who can live with a slow cashier.</p>"),
  ("Which betting site has the best welcome bonus in NZ?",
-  "<p>Gunsbet, on size: 285% up to &euro;7,500, roughly NZ$13,900, plus 285 free spins. Smash has the "
+  "<p>Gunsbet, on size: 285% up to NZ$14,700, roughly NZ$14,700, plus 285 free spins. Smash has the "
   "best large offer with a workable multiple at 250% up to NZ$9,800 at 15x. Bet&amp;Play&rsquo;s "
   "100% up to NZ$500 at 5x on odds of 1.80+ is the most realistically clearable sports welcome on "
   "this page.</p>"),
@@ -161,7 +161,7 @@ def build_online_betting():
          "Rugby and NPC, a genuine NZD wallet, and a three-hour median withdrawal. "
          "<a href=\"/casino-reviews/betandplay/\">Bet&amp;Play</a> is the choice for in-play. "
          "<a href=\"/casino-reviews/gunsbet/\">Gunsbet</a> has the largest welcome offer in the "
-         "New Zealand-facing market at roughly NZ$13,900, with the slowest cashier to match.</p>",
+         "New Zealand-facing market at roughly NZ$14,700, with the slowest cashier to match.</p>",
          "<p>Most betting pages rank on bonus size, which is the least important variable in the whole "
          "exercise. A NZ$500 welcome offer is worth NZ$500 once. Betting into a 106% market instead of "
          "a 102.5% market costs a punter turning over NZ$500 a week roughly NZ$900 a year, every year. "
@@ -244,7 +244,7 @@ def build_online_betting():
       ["Margin, mainstream rugby", "103&ndash;104%", "<b>102&ndash;103%</b>"],
       ["Margin, NZ racing", "Tote pools plus fixed odds", "116&ndash;122% fixed odds, fewer exotics"],
       ["NZ racing depth", "<b>Complete &mdash; every meeting, every exotic</b>", "Main meetings, win/place/each-way"],
-      ["Welcome offers", "Limited by NZ rules", "<b>NZ$200 to NZ$13,900</b>"],
+      ["Welcome offers", "Limited by NZ rules", "<b>NZ$200 to NZ$14,700</b>"],
       ["In-play", "Restricted on some codes", "<b>Full in-play on main codes</b>"],
       ["Withdrawal speed", "1&ndash;2 business days to a NZ bank", "<b>3 hours on crypto</b>, 1&ndash;5 days on card"],
       ["Currency", "<b>NZD always</b>", "NZD at 7 of 12 books here"],
@@ -387,7 +387,7 @@ def build_online_betting():
      "NZ$100, not NZ$200. Its real value is roughly 70&ndash;80% of face, and lower once you apply the "
      "turnover requirement.</p>",
      table(["Book", "Sports welcome", "Turnover", "Minimum odds", "Real cost to clear"], [
-      ["Gunsbet", "285% up to &euro;7,500", "40x bonus", "&mdash;", "Very high &mdash; effectively decorative"],
+      ["Gunsbet", "285% up to NZ$14,700", "40x bonus", "&mdash;", "Very high &mdash; effectively decorative"],
       ["Smash", "250% up to NZ$9,800", "15x", "&mdash;", "Workable on a large deposit"],
       ["Kingdom", "200% up to NZ$1,900", "Per terms", "&mdash;", "Moderate"],
       ["Bet&amp;Play", "100% up to NZ$500", "<b>5x at 1.80+</b>", "1.80", "<b>Low &mdash; genuinely clearable</b>"],
@@ -477,7 +477,7 @@ def build_sites():
       "book for Super Rugby Pacific, the NPC, the NRL, the ANZ Premiership, the Black Caps, the "
       "A-League and New Zealand racing, then ranked on depth, margin and how quickly they pay.",
       stats=[("10", "Sportsbooks compared"), ("7", "NZ codes audited"),
-             ("NZ$13,900", "Largest welcome"), ("2h 50m", "Fastest median payout")],
+             ("NZ$14,700", "Largest welcome"), ("2h 50m", "Fastest median payout")],
       ctas=[("See the ranking", "#ranked"), ("Market depth audit", "#depth")],
       meta=([("Home", "/"), ("Online betting", "/online-betting/"),
              ("Best sports betting sites", None)], "manaia-kerr", "jordan-whitcombe"),
@@ -527,7 +527,7 @@ def build_sites():
       ("02", "Best for in-play", "Bet&amp;Play. The only book that came through a full Super Rugby "
        "round with no unexplained suspensions, and the best mobile bet slip here.",
        "/casino-reviews/betandplay/", "Full review"),
-      ("03", "Biggest welcome offer", "Gunsbet. Roughly NZ$13,900 across staged deposits. No crypto, "
+      ("03", "Biggest welcome offer", "Gunsbet. Roughly NZ$14,700 across staged deposits. No crypto, "
        "euro wallet and a &euro;4,000 weekly cap, so plan your exit before you claim.",
        "/casino-reviews/gunsbet/", "Full review"),
       ("04", "Fastest payouts", "Kingdom. A 2h 50m median across seven timed withdrawals and a "
@@ -544,7 +544,7 @@ def build_sites():
 
     s = [h2("Welcome offers compared", "offers"),
          table(["Book", "Sports welcome", "Turnover", "Min deposit", "Realistically clearable?"], [
-      ["Gunsbet", "285% up to &euro;7,500 + 285 spins", "40x bonus", "NZ$35", "<b>No</b>"],
+      ["Gunsbet", "285% up to NZ$14,700 + 285 spins", "40x bonus", "NZ$35", "<b>No</b>"],
       ["Smash", "250% up to NZ$9,800", "15x", "NZ$20", "On a large deposit"],
       ["Kingdom", "200% up to NZ$1,900", "Per terms", "NZ$20", "Yes"],
       ["Bet&amp;Play", "100% up to NZ$500", "5x at 1.80+", "NZ$20", "<b>Yes, comfortably</b>"],
@@ -556,7 +556,7 @@ def build_sites():
       ["Ivibet Sportsbook", "100% up to NZ$200", "5x at 2.00+", "NZ$20", "<b>Yes, comfortably</b>"],
      ], caption="Sports welcome offers at NZ-facing books, %s" % MONTH_YEAR),
      "<p>The pattern repeats from the casino side: the biggest number is the hardest to use. Gunsbet&rsquo;s "
-     "40x on a &euro;7,500 package is a turnover requirement no recreational punter will meet. "
+     "40x on a NZ$14,700 package is a turnover requirement no recreational punter will meet. "
      "Bet&amp;Play&rsquo;s 5x at odds of 1.80 or better on NZ$500 is a genuine NZ$500 you can realise "
      "in a fortnight of normal betting.</p>",
      h3("Payout speed and banking", "payouts"),

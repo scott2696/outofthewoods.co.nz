@@ -15,8 +15,8 @@
   "games": "5,000+",
   "providers": "60+",
   "live_tables": "250+",
-  "casino_bonus": "390% up to €3,700 + 175 free spins",
-  "casino_bonus_terms": "Approx. NZ$6,800 · staged across the first deposits",
+  "casino_bonus": "390% up to NZ$7,250 + 175 free spins",
+  "casino_bonus_terms": "Approx. NZ$7,250 · staged across the first deposits",
   "sports_bonus": "",
   "wagering": "40x bonus",
   "min_deposit": "NZ$35",
@@ -36,7 +36,8 @@
    "Litecoin"
   ],
   "order": 1,
-  "logo": "/logos/crownslots.png"
+  "logo": "/logos/crownslots.png",
+  "bonus_currency": "EUR"
  },
  {
   "slug": "spinjo",
@@ -134,9 +135,9 @@
   "games": "3,000+",
   "providers": "45+",
   "live_tables": "120+",
-  "casino_bonus": "285% up to €7,500 + 285 free spins",
-  "casino_bonus_terms": "Approx. NZ$13,900 · staged deposits",
-  "sports_bonus": "285% up to €7,500 + 285 free spins",
+  "casino_bonus": "285% up to NZ$14,700 + 285 free spins",
+  "casino_bonus_terms": "Approx. NZ$14,700 · staged deposits",
+  "sports_bonus": "285% up to NZ$14,700 + 285 free spins",
   "wagering": "40x bonus",
   "min_deposit": "NZ$35",
   "payout_crypto": "Not supported",
@@ -154,7 +155,8 @@
    "Zimpler"
   ],
   "order": 4,
-  "logo": "/logos/gunsbet.png"
+  "logo": "/logos/gunsbet.png",
+  "bonus_currency": "EUR"
  },
  {
   "slug": "lucky7even",
