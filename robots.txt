@@ -1,5 +1,5 @@
 # robots.txt for https://outofthewoods.co.nz
-# outofthewoods.co.nz — regenerated 2026-09-21
+# outofthewoods.co.nz — regenerated 2026-10-01
 
 User-agent: AhrefsBot
 Disallow: /

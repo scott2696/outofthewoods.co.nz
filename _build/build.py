@@ -40,7 +40,7 @@ def sitemap():
 
 def robots():
     out = ["# robots.txt for %s" % SITE,
-           "# %s — regenerated %s" % (NAME, datetime.date.today().isoformat()), ""]
+           "# %s — regenerated %s" % (NAME, datetime.date.fromisoformat(os.environ.get("BUILD_DATE") or datetime.date.today().isoformat()).isoformat()), ""]
     for ua in BLOCKED:
         out += ["User-agent: %s" % ua, "Disallow: /", ""]
     out += ["# Everything else is welcome.",
