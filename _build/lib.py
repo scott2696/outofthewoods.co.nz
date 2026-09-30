@@ -11,6 +11,7 @@ every schema @id, the sitemap and robots.txt all derive from them, and nothing
 else in the codebase hard-codes the host.
 """
 import os, json, re, html, hashlib, datetime
+import seo_titles
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BUILD = os.path.join(ROOT, "_build")
@@ -33,9 +34,9 @@ POSTAL = "PO Box 106-172, Auckland 1143, New Zealand"
 
 # Freshness. One edit a month: change MONTH (and YEAR each January), rebuild,
 # and every title, meta description, H1 and review-date follows.
-MONTH, YEAR = "September", "2026"
+MONTH, YEAR = "October", "2026"
 MONTH_YEAR = MONTH + " " + YEAR
-NEXT_REVIEW = "20 October 2026"
+NEXT_REVIEW = "1 November 2026"
 FOUNDED = "2024"
 
 # Resolved per page in write() from the content-hash manifest, so a page that
@@ -273,7 +274,7 @@ FOOTER = [
 # that still fits. H1s use the same format with no width ceiling.
 # ---------------------------------------------------------------------------
 DATE_TAG = "[%s]" % MONTH_YEAR
-SERP_LIMIT = 580          # pixels, Arial 20px
+SERP_LIMIT = 575          # pixels, Arial 20px
 SERP_SIZE = 20
 
 # Arial advance widths in units of 1/1000 em.
@@ -1129,7 +1130,7 @@ def write(path, title, desc, body, schema=None, prio=0.7, freq="monthly",
     if prev and prev.get("hash") == digest:
         date = prev["date"]
     else:
-        date = datetime.date.today().isoformat()
+        date = datetime.date.fromisoformat(os.environ.get("BUILD_DATE") or datetime.date.today().isoformat()).isoformat()
     _NEW_LASTMOD[path] = {"hash": digest, "date": date}
     nz = datetime.date.fromisoformat(date).strftime("%d %B %Y").lstrip("0")
     doc = doc.replace(UPDATED, date).replace(UPDATED_NZ, nz)
@@ -1140,6 +1141,7 @@ def write(path, title, desc, body, schema=None, prio=0.7, freq="monthly",
             os.makedirs(outdir)
     else:
         outdir = ROOT
+    doc = seo_titles.sync_schema(doc)
     open(os.path.join(outdir, "index.html"), "w", encoding="utf-8").write(doc)
     if not noindex:
         PAGES.append((path, date, prio, freq))
